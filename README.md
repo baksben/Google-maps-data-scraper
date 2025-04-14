@@ -1,6 +1,7 @@
 # Google-maps-data-scraper
 
-A simple desktop app to scrape contact information for **notaries in Spain** from Google Maps using Selenium. Built with [Flet](https://flet.dev) for an easy-to-use graphical interface.
+![Scraper](source/front_page.jpg)
+A simple desktop app to scrape contact information for **notaries in Spain** from Google Maps using Selenium. Built with [Flet](https://flet.dev) for an easy-to-use graphical interface. 
 
 ---
 
@@ -30,9 +31,23 @@ Update the path in:
 
 ### 3. python app.py
 Run the app and follow the instructions in the GUI.
+- open your terminal
+- navigate to your project folder with code 
+``` bash
+cd "path_to_your_project_folder"
+```
+- activate your environment
+```bash
+conda activate environment_name
+```
+- run the app
+```bash
+python app.py
+```
+
 
 ### 4. 📁 Output
-The output will be CSV files per city (e.g. Blanes.csv) and screenshots saved under screenshots/<city>/.
+The output will be CSV files per city (e.g. Blanes.csv) in the folder scrape_files and screenshots saved under screenshots/<city>/.
 
 ### 👨‍💻 Author
 Built by Bakwenye Benjamin
