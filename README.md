@@ -17,17 +17,20 @@ A simple desktop app to scrape contact information for **notaries in Spain** fro
 ## 🚀 How to Run
 
 ### 1. Install Python dependencies:
-
+First we have to create an environment using this command.
+```bash
+conda create -n myenv python=3.10
+conda activate myenv
+```
+change "myenv" to your desired environment name. 
+Then install the required packages with pip.
 ```bash
 pip install -r requirements.txt
 ```
 
 ### 2. Download the correct ChromeDriver
-Make sure ChromeDriver matches your browser version. Download it here.
+Make sure ChromeDriver matches your browser version. Download it [here](https://googlechromelabs.github.io/chrome-for-testing/) and store in the folder "chromedriver-win64". Note, each chromedriver is connected to your chrome version. 
 
-Update the path in:
-- scraper.py
-- app.py
 
 ### 3. python app.py
 Run the app and follow the instructions in the GUI.
