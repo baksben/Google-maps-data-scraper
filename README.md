@@ -29,7 +29,8 @@ pip install -r requirements.txt
 ```
 
 ### 2. Download the correct ChromeDriver
-Make sure ChromeDriver matches your browser version. Download it [here](https://googlechromelabs.github.io/chrome-for-testing/) and store in the folder "chromedriver-win64". Note, each chromedriver is connected to your chrome version. 
+Make sure ChromeDriver matches your browser version. Download it [here](https://googlechromelabs.github.io/chrome-for-testing/) and store in the folder "chromedriver-win64". 
+Note, each chromedriver is connected to your chrome version. 
 
 
 ### 3. python app.py
